@@ -1,4 +1,4 @@
-# levelsixsecurity
+# Level_Six_Security
 Authentication &amp; Security! 
 
 ## Welcome to Secrets!
