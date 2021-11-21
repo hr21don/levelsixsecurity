@@ -71,3 +71,14 @@ Security within the Secrets App utilises minimal overhead  by using hashing, sal
 
 <img width="516" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767872-4af908c4-76b2-4363-8cd9-b143ecd8edf2.png">
 
+## How to run? || Download the zip file to your downloads directory and extract it.
+
+* Open up a terminal/cmd and change to the directory with app.js in it
+* Run app.js locally using 'nodemon app.js' to start the server on localhost:3000.
+
+## Useful Resources 
+
+* https://ejs.co/
+* https://nodejs.org/en/download/
+* https://www.npmjs.com/package/nodemon 
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
