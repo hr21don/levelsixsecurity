@@ -121,7 +121,7 @@ passport.use(new GitHubStrategy({
   }
 ));
 
-//Setting up the Home route + rendering the home page
+//Setting up the Home route + render the home page
 app.get("/", function(req, res) {
   res.render("home");
 });
@@ -161,16 +161,16 @@ app.get('/auth/github/secrets',
     res.redirect('/secrets');
   });
 
-//setting up the register page + rendering the register page
+//setting up the register page + render the register page
 app.get("/register", function(req, res) {
   res.render("register");
 });
-//setting up the login page + rendering the login page
+//setting up the login page + render the login page
 app.get("/login", function(req, res) {
   res.render("login");
 });
 
-//setting up the secrets page + rendering the secrets page
+//setting up the secrets page + render the secrets page
 app.get("/secrets", function(req, res) {
   User.find({
     "secret": {
@@ -188,13 +188,13 @@ app.get("/secrets", function(req, res) {
     }
   });
 });
-//setting up the logout  page + rendering the logout page + redirect back to the home page
+//setting up the logout  page + render the logout page + redirect back to the home page
 app.get("/logout", function(req, res) {
   req.logout();
   res.redirect("/");
 });
 
-//setting up the submit page + rendering the submit page + redirect back to the login page
+//setting up the submit page + render the submit page + redirect back to the login page
 app.get("/submit", function(req, res) {
   if (req.isAuthenticated()) {
     res.render("submit");
