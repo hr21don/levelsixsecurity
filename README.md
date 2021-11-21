@@ -60,4 +60,14 @@ User selects Github to authenticate themselves which will prompt the user to log
 <img width="733" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767644-1e77561d-2cf2-42c0-b39d-f9066aa5f2c0.png">
 
 
+## Security 
+
+Security within the Secrets App utilises minimal overhead  by using hashing, salting and password management through Auth0. 
+
+* Auth0 helps you prevent critical identity data from falling into the wrong hands. We never store passwords in cleartext. 
+* Passwords are always hashed and salted using bcrypt. 
+
+## Example grabbed from Database [userDB]
+
+<img width="516" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767872-4af908c4-76b2-4363-8cd9-b143ecd8edf2.png">
 
