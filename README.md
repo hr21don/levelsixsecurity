@@ -28,3 +28,17 @@ The example output will prompt the user to submit a SECRET as follows...
 Enter your new secret into the 'What's your secret?' field and press the button submit as follow... Don't worry your secret will be securely held until you next login! 
 
 <img width="906" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766557-1da57f40-a433-431a-a22a-b88fe15a124b.png">
+
+
+## Authentication Use Cases
+If the user wishes to authenticate themselves then they can using Google,Facebook or GitHub using the OAuth 2.0 API as follows....
+
+User selects Facebook to authenticate themselves which will prompt the user to login....
+<img width="702" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766730-98baf604-7dab-4d29-b352-e6d3780dce37.png">
+
+Where the app secrets will request the following from the user.
+
+<img width="395" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766814-40c7a720-22fb-46f9-89cc-f5629b269f21.png">
+
+ 
+
