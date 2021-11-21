@@ -14,7 +14,7 @@ Secret management plays an important role in keeping essential information secur
 
 Once, in the Register page you will be prompted to register or authenticate themselves with Google,Facebook or GitHub using the OAuth 2.0 API.
 
-Enter your input into the email and password field then follow up by pressing the 'Register' button to register to the site. [REMEMBER YOUR EMAIL + PASSWORD]
+Enter your input into the email and password field then follow up by pressing the 'Register' button to register to the site. [REMEMBER YOUR_EMAIL + YOUR_PASSWORD]
 
 <img width="877" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766293-a0f5823a-1808-443f-b805-3f3e5f791295.png">
 
@@ -33,10 +33,9 @@ Enter your new secret into the 'What's your secret?' field and press the button 
 ## Authentication Use Cases
 If the user wishes to authenticate themselves then they can using Google,Facebook or GitHub using the OAuth 2.0 API as follows....
 
-User selects Facebook to authenticate themselves which will prompt the user to login....
 <img width="702" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766730-98baf604-7dab-4d29-b352-e6d3780dce37.png">
 
-Where the app secrets will request the following from the user.
+User selects Facebook to authenticate themselves which will prompt the user to login, where the app secrets will request the following from the user.
 
 <img width="395" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766814-40c7a720-22fb-46f9-89cc-f5629b269f21.png">
 
