@@ -64,7 +64,7 @@ User selects Github to authenticate themselves which will prompt the user to log
 
 Security within the Secrets App utilises minimal overhead  by using hashing, salting and password management through Auth0. 
 
-* Auth0 helps you prevent critical identity data from falling into the wrong hands. We never store passwords in cleartext. 
+* Auth0 helps you prevent critical identity data from falling into the wrong hands. 
 * Passwords are always hashed and salted using bcrypt. 
 
 ## Example grabbed from Database [userDB]
