@@ -14,7 +14,7 @@ Secret management plays an important role in keeping essential information secur
 
 Once, in the Register page you will be prompted to register or authenticate themselves with Google,Facebook or GitHub using the OAuth 2.0 API.
 
-Type your input into the email and password field then follow up by pressing the 'Register' button to register to the site. 
+Enter your input into the email and password field then follow up by pressing the 'Register' button to register to the site. 
 
 <img width="877" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766293-a0f5823a-1808-443f-b805-3f3e5f791295.png">
 
@@ -23,8 +23,8 @@ Type your input into the email and password field then follow up by pressing the
 
 The example output will prompt the user to submit a SECRET as follows...
 
-
 <img width="748" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766491-59228f4e-3ea6-4924-aaee-43d2b4cbc7d3.png">
 
+Enter your new secret into the 'What's your secret?' field and press the button submit as follow...
 
 <img width="906" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766557-1da57f40-a433-431a-a22a-b88fe15a124b.png">
