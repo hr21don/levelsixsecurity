@@ -26,3 +26,5 @@ The example output will prompt the user to submit a SECRET as follows...
 
 <img width="748" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766491-59228f4e-3ea6-4924-aaee-43d2b4cbc7d3.png">
 
+
+<img width="906" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766557-1da57f40-a433-431a-a22a-b88fe15a124b.png">
