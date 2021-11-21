@@ -45,7 +45,11 @@ User selects Facebook to authenticate themselves which will prompt the user to l
 
 <img width="404" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767109-04d09329-85a5-4940-a26a-7b0e04145b3c.png">
 
-User selects Google to authenticate themselves which will prompt the user to login, where the app secrets will request the  from the user.
+User selects Google to authenticate themselves which will prompt the user to login, where the app secrets will request name & profile from the user prior to rendering the secrets page. 
+
+<img width="789" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767277-1fc54001-16d6-406d-9d96-fe221c6a84bd.png">
+
+
 
  
 
