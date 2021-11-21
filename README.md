@@ -67,7 +67,7 @@ Security within the Secrets App utilises minimal overhead  by using hashing, sal
 * Auth0 helps you prevent critical identity data from falling into the wrong hands. 
 * Passwords are always hashed and salted using bcrypt. 
 
-## Example grabbed from Database [userDB]
+## Example grabbed using Robo3T from Database [userDB]
 
 <img width="516" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767872-4af908c4-76b2-4363-8cd9-b143ecd8edf2.png">
 
