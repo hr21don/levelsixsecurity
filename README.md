@@ -50,6 +50,10 @@ User selects Google to authenticate themselves which will prompt the user to log
 <img width="789" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767277-1fc54001-16d6-406d-9d96-fe221c6a84bd.png">
 
 
+## Use Case Three
+
+<img width="338" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767344-23464e50-a69c-4e8c-abf5-1c8515fd3c60.png">
+
 
  
 
