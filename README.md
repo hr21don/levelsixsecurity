@@ -12,7 +12,7 @@ Secret management plays an important role in keeping essential information secur
 
 ## Input
 
-Once, in the Register page you will be prompted to register or authenticate themselves with Google,Facebook or GitHub using the OAuth 2.0 API.
+Once, in the Register page the user will be prompted to register or authenticate themselves with Google,Facebook or GitHub using the OAuth 2.0 API.
 
 Enter your input into the email and password field then follow up by pressing the 'Register' button to register to the site.
 [REMEMBER YOUR_EMAIL + YOUR_PASSWORD]
