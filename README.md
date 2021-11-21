@@ -33,7 +33,7 @@ Enter your new secret into the 'What's your secret?' field and press the button 
 ## Authentication Use Cases
 If the user wishes to authenticate themselves then they can using Google,Facebook or GitHub using the OAuth 2.0 API as follows....
 
-## Use Case 1
+## Use Case One
 
 <img width="702" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766730-98baf604-7dab-4d29-b352-e6d3780dce37.png">
 
@@ -41,11 +41,11 @@ User selects Facebook to authenticate themselves which will prompt the user to l
 
 <img width="395" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766814-40c7a720-22fb-46f9-89cc-f5629b269f21.png">
 
-## Use Case 2
+## Use Case Two
 
 <img width="404" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767109-04d09329-85a5-4940-a26a-7b0e04145b3c.png">
 
-
+User selects Google to authenticate themselves which will prompt the user to login, where the app secrets will request the  from the user.
 
  
 
