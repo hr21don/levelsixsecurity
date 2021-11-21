@@ -57,6 +57,5 @@ User selects Google to authenticate themselves which will prompt the user to log
 
 User selects Github to authenticate themselves which will prompt the user to login, where the app secrets will request to view the user profile prior to rendering the secrets page. 
 
- <img width="338" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767390-9c211ac3-654c-4bc4-9df8-1874d75af000.png">
-
+<img width="758" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767460-09390aca-ca2d-4d0e-bd3f-1cd08dcdf511.png">
 
