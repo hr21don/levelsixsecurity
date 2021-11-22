@@ -32,7 +32,7 @@ Enter your new secret into the 'What's your secret?' field and press the button 
 
 
 ## Authorisation Use Cases
-If the user wishes to authenticate themselves then they can using Google,Facebook or GitHub using the OAuth 2.0 API framework which is showcased in the following use cases.
+If the user wishes to authenticate themselves and authorise the secrets App then they can use Google,Facebook or GitHub to login using the OAuth 2.0 API framework which is showcased in the following use cases.
 
 ## Use Case One
 
