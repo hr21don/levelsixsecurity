@@ -83,7 +83,7 @@ As Cybercriminals use thousands of lookup tables of stored potential passwords a
 
 Why use the pbkdf2 algorithm?
 
-This node crypto library was selected for securing the users personal information inputed to the Secrets App as the platform is independent where every generated salt is saved which makes rainbow table attacks even harder.
+This node crypto library was selected for securing the users personal information inputed to the Secrets App as the appropriate (independent) platform, where every generated salt is saved which makes rainbow table attacks even harder.
 The Password-based Key Derivation Function 2 (pbkdf2) prevents password cracking tools from making the best use of GPU's and this reduces the guess rate from hundreds of thousands of guesses per second, to less than a few tens of thousands of guesses per second. 
 
 
