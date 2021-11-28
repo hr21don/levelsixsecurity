@@ -79,7 +79,7 @@ In theory if a password is kept private and secure, unauthorised access will be 
 
 In practise, is this enough???
 
-As Cybercriminals use thousands of lookup tables of stored potential passwords allowing them to gain access when the correct password is attempted. 
+As Cybercriminals use rainbow tables of stored potential passwords allowing them to gain access when the correct password is attempted. 
 
 Why use the pbkdf2 algorithm?
 
