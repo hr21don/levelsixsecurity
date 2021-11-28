@@ -62,14 +62,30 @@ User selects Github to authenticate themselves and authorise the secrets App whi
 
 ## Security 
 
-Security within the Secrets App utilises minimal overhead  by using hashing, salting and password management through Auth0. 
+Security within the Secrets App utilises minimal overhead by using salting, hashing and password management through Auth0.
 
-* Auth0 helps you prevent critical identity data from falling into the wrong hands. 
-* Passwords are always hashed and salted using bcrypt. 
+* Auth0 helps you prevent critical identity data from falling into the wrong hands.
+*	Passwords are always salted and hashed using bcrypt. 
 
 ## Example grabbed using Robo3T from Database [userDB]
 
 <img width="516" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142767872-4af908c4-76b2-4363-8cd9-b143ecd8edf2.png">
+
+If you check the example, there is no field for password because passport-local-mongoose plugin created a salt & hash for the provided unique username of ‘test@email.com.’
+
+## Theory Vs Best Practise 
+
+In theory if a password is kept private and secure, unauthorised access will be prevented. 
+
+In practise, is this enough???
+
+As Cybercriminals use thousands of lookup tables of stored potential passwords allowing them to gain access when the correct password is attempted. 
+
+Why use the pbkdf2 algorithm?
+
+This node crypto library was selected for securing the users personal information inputed to the Secrets App as the platform is independent where every generated salt is saved which makes rainbow table attacks even harder.
+The Password-based Key Derivation Function 2 (pbkdf2) prevents password cracking tools from making the best use of GPU's and this reduces the guess rate from hundreds of thousands of guesses per second, to less than a few tens of thousands of guesses per second. 
+
 
 ## How to run? || Download the zip file to your downloads directory and extract it.
 
