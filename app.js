@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({
 
 //Create a session middleware with the given options.
 app.use(session({
-  secret: "Our Secret Is Here.",
+  secret: process.env.SECRET_KEY,
   resave: false,
   saveUninitialized: false,
 }));
@@ -39,7 +39,7 @@ app.use(passport.session());
 
 
 //Connecting to local MongoDB on "mongodb://localhost:27017/YOUR_DB_NAME"
-mongoose.connect("mongodb://localhost:27017/userDB", {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -74,9 +74,9 @@ passport.deserializeUser(function(id, done) {
 
 //configure strategy
 passport.use(new GoogleStrategy({
-    clientID: process.env.CLIENT_ID,
-    clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/google/secrets",
+    clientID: process.env.GOOGLE_OAUTH_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_OAUTH_CLIENT_SECRET,
+    callbackURL: process.env.GOOGLE_OAUTH_CALLBACK_URL,
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   function(accessToken, refreshToken, profile, cb) {
