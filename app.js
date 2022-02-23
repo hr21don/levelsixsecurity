@@ -93,7 +93,7 @@ passport.use(new GoogleStrategy({
 passport.use(new FacebookStrategy({
     clientID: process.env.FACEBOOK_APP_ID,
     clientSecret: process.env.FACEBOOK_APP_SECRET,
-    callbackURL: "http://localhost:3000/auth/facebook/secrets"
+    callbackURL: process.env.FACEBOOK_CALLBACK_URL
   },
   function(accessToken, refreshToken, profile, cb) {
     console.log(profile);
@@ -109,7 +109,7 @@ passport.use(new FacebookStrategy({
 passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/github/secrets"
+    callbackURL: process.env.GITHUB_CALLBACK_URL
   },
   function(accessToken, refreshToken, profile, cb) {
     console.log(profile);
