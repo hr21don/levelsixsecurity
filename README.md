@@ -31,7 +31,7 @@ Enter your new secret into the 'What's your secret?' field and press the button 
 <img width="906" alt="mandela-featured-image2" src="https://user-images.githubusercontent.com/91548582/142766557-1da57f40-a433-431a-a22a-b88fe15a124b.png">
 
 
-## Authorisation Use Cases
+## Authenticate Use Cases
 If the user wishes to authenticate themselves and authorise the secrets App then they can use Google,Facebook or GitHub to login using the OAuth 2.0 API framework which is showcased in the following use cases.
 
 ## Use Case One
