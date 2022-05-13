@@ -62,8 +62,41 @@ User selects Github to authenticate themselves and authorise the secrets App whi
 
 Security within the Secrets App utilises minimal overhead by using salting, hashing and password management through Auth0.
 
+**Level 1 Security - Email & Password**
+
+* User email and password stored using Mongoose & MongoDB
+* This level of security displays the users' password in plaintext in database which is a definite no! 
+
+**Level 2 Security - Encryption**
+
+*  The password field is now a long binary string instead of plaintext
+*  To combat this we used environment variables in a simple .env file which is used to keep sensitive variables and API keys safe.
+
+**Level 3 Security - Hashing**
+
+* Hashing was achieved by using NPM module md5 https://www.npmjs.com/package/md5
+* When a hash function is run against a value it produces the same hash value every time. This eliminates the need for reversing the function for data verification.
+
+**Level 4 Security - Salting & Hashing**
+
+* Used bcrypt.js to hash and salt passwords. https://www.npmjs.com/package/bcrypt
+* Salting adds random unique data to passwords. Those random characters are then appended to sensitive user data and ran through the hash function.
+* Adding salt increases complexity and makes our database a bit more secure.
+
+**Level 5 Security - Cookies & Sessions**
+
+* Cookies are used to establish and maintain a Session.
+* Cookies and Session implemented use PassportJS.
+* NPM packages used:
+    - passport - used to authenticate request
+    - passport-local - local authentication strategy for users using username and password
+    - passport-local-mongoose - Mongoose plugin
+    - express-session - allows authentication between client and session
+  
+**Level 6 Security - Third Party OAuth2.0**
+
 * Auth0 helps you prevent critical identity data from falling into the wrong hands.
-*	Passwords are always salted and hashed using bcrypt. 
+* Passwords are always salted and hashed using bcrypt. 
 
 ## Example grabbed using Robo3T from Database [userDB]
 
